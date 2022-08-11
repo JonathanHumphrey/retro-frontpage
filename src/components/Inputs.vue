@@ -118,7 +118,7 @@ option {
 }
 .input-label {
   position: absolute;
-  top: 37.5rem;
+  top: 41rem;
   z-index: 3;
 }
 label {
