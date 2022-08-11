@@ -1,10 +1,12 @@
 <template>
   <HelloWorld />
+  <MusicPlayer />
   <NeonRetro />
 </template>
 
 <script>
 import NeonRetro from "./components/NeonRetro.vue";
+import MusicPlayer from "./components/MusicPlayer.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
@@ -12,6 +14,7 @@ export default {
   components: {
     NeonRetro,
     HelloWorld,
+    MusicPlayer,
   },
 };
 </script>
